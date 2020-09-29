@@ -1,3 +1,6 @@
 [submodule "final-1-grading-tests"]
 	path = final-1-grading-tests
 	url = https://github.com/vkutuev-classrooms-test/final-1-grading-tests.git
+[submodule "final-1-vkutuev-test"]
+	path = final-1-vkutuev-test
+	url = https://github.com/vkutuev-classrooms-test/final-1-vkutuev-test.git

@@ -14,9 +14,9 @@ jobs:
         with:
           submodules: true
           fetch-depth: 2      
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.ORGANIZATION_PAT }}
       - name: Check repository clean
-        run: ./1-grading-tests/scripts/check_clean.sh
+        run: ./final-1-grading-tests/scripts/check_clean.sh
       - name: Build
-        run: ./1-grading-tests/scripts/build.sh
+        run: ./final-1-grading-tests/scripts/build.sh
 
